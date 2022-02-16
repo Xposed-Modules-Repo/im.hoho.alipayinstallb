@@ -8,7 +8,7 @@ Xposed module for Alipay App which makes your barcode payment interface same as 
 
 ## 更新注意 (Notice)
 
-v2.4.0-beta 仅增加自定义皮肤功能，且无界面操作，不需要该功能无需从v2.3.0更新。
+v2.4.0 仅增加自定义皮肤功能，且无界面操作，不需要该功能无需从v2.3.0更新。
 
 ## 自定义皮肤说明 (for 2.4.0 Beta version)
 - 更新装X模块2.4.0版本。
