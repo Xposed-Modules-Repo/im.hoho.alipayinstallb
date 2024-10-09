@@ -1,12 +1,17 @@
-# 支付宝装X模块 (Alipay install B module)
+# 支付宝装X模块
 
-Xposed module for Alipay App which makes you barcode payment interface same as Diamond members or customized skins.
+Xposed module for Alipay App which makes you barcode payment interface same as Diamond members or
+customized skins.
 
 这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。
 
 *该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。*
 
-升级提示：2.5.0与之前版本SD卡资源文件位置已有变化，内容不变，升级请手动移动位置。
+### 界面
+
+得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击"Download Resources"包即可。
+
+另外觉得好用请右上角Star ❥这个Repo，^_^
 
 ### 版本
 
@@ -19,7 +24,20 @@ Xposed module for Alipay App which makes you barcode payment interface same as D
 | 2.4.2 | 钻石背景或自定义皮肤(含导出)                        | 2023.09      | >=10.2.23, （皮肤<10.5.53） |
 | 2.5.0 | 钻石背景或自定义皮肤(含导出)                        | 2023.11      | >=10.2.23                   |
 
-### 自定义皮肤说明
+## 快速手机修改背景步骤
+
+1. 打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。
+
+> <img src="https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png" height="600" />
+
+2. 程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。
+3. 打开支付宝付款码即可看到效果如图。
+
+> <img src="https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png" height="600" />
+
+4. 其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）
+
+### 自定义皮肤说明（手动模式）
 
 - 手动下载DEMO资源包，放入SD卡对应程序文件目录。(**[SD CARD]**
   \Android\media\com.eg.android.AlipayGphone\)
@@ -29,7 +47,7 @@ Xposed module for Alipay App which makes you barcode payment interface same as D
   更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **
 - **第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）**
 
-### 目录结构说明
+### 目录结构说明（手动模式及自定义修改需了解）
 
 以下提到的所有"目录"均为000_HOHO_ALIPAY_SKIN下的目录。
 
@@ -54,20 +72,8 @@ Xposed module for Alipay App which makes you barcode payment interface same as D
 
 ***资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。***
 
-<a href="https://hoho.im/wp-content/uploads/2017/08/IMG_20220107_085600-8656468.jpg"><img src="https://hoho.im/wp-content/uploads/2017/08/IMG_20220107_085600-8656468.jpg" height="600" /></a>
-<a href="https://hoho.im/wp-content/uploads/2022/01/IMG_20220107_0857421-1471763-768x1664.jpg"><img src="https://hoho.im/wp-content/uploads/2022/01/IMG_20220107_0857421-1471763-768x1664.jpg" height="600" /></a>
-<a href="https://hoho.im/wp-content/uploads/2022/01/IMG_20220107_0858051-7266617-768x1664.jpg"><img src="https://hoho.im/wp-content/uploads/2022/01/IMG_20220107_0858051-7266617-768x1664.jpg" height="600" /></a>
-<a href="https://hoho.im/wp-content/uploads/2022/01/IMG_20220107_0857191-1485152-768x1664.jpg"><img src="https://hoho.im/wp-content/uploads/2022/01/IMG_20220107_0857191-1485152-768x1664.jpg" height="600" /></a>
-
-## 快速手机修改背景步骤
-1. 打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。
-2. 在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹。
-3. 打开支付宝付款码即可看到效果如图。
-4. 其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，同样创建创建delete与update两个文件夹触发更新。
-
 ## 更新历史
 
-[更新历史](https://github.com/nov30th/AlipayHighHeadsomeRichAndroid/blob/master/Updates.md)
-
+[更新历史](Updates.md)
 
 【作者自用】
