@@ -74,6 +74,6 @@ customized skins.
 
 ## 更新历史
 
-[更新历史](Updates.md)
+[源代码](https://github.com/nov30th/AlipayHighHeadsomeRichAndroid)
 
 【作者自用】
